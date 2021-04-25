@@ -1,0 +1,25 @@
+name: C1
+
+on:
+  push:
+    branches: [ master ]
+    paths:
+      - 'laba_1/**'
+  pull_request:
+    branches: [ master ]
+    paths:
+      - 'laba_1/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: go to laba_1 and build
+      working-directory: ./laba_1
+      run: make Makefile build
+    - name: test
+      working-directory: ./laba_1
+      run: make Makefile test
