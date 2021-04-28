@@ -1,0 +1,25 @@
+name: C6
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'laba_4_2/**'
+  pull_request:
+    branches: [ main ]
+    paths:
+      - 'laba_4_2/**'
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - name: go to laba_4_2 and build
+      working-directory: ./laba_4_2
+      run: make Makefile build
+    - name: test
+      working-directory: ./laba_4_2
+      run: make Makefile test
