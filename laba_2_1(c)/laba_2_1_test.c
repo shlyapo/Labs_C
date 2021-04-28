@@ -3,9 +3,9 @@
 
 void test()
 {
-assert(Decision(230000, 160000, 360, 20)==52000);
-assert(Decision(402000, 301000, 320, 40)==88200);
-assert(Decision(780000, 615000, 200, 60)==153000);
+assert(Cement()==230);
+assert( Gravel()==142);
+assert(Concrete()==260);
 }
 
 #undef main
@@ -14,3 +14,4 @@ int main()
 {
     test();
 }
+
