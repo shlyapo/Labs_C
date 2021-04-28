@@ -4,11 +4,11 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'laba_4_1/**'
+      - 'laba_4/laba_4_1/**'
   pull_request:
     branches: [ main ]
     paths:
-      - 'laba_4_1/**'
+      - 'laba_4/laba_4_1/**'
 
 jobs:
   build:
