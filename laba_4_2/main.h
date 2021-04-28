@@ -1,0 +1,1 @@
+int Check(char x);
