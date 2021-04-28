@@ -14,6 +14,7 @@ int main()
 {
     int n=1;
 FILE *fp;
+ while(n==1)
   {
   if ((fp = fopen("C:\\Пользователи\\sheks\\source\\repos\\второй семестр\\laba_4\\laba_4_2\\t.txt","r")) == NULL)
   {
