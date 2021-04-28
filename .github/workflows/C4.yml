@@ -2,11 +2,11 @@ name: C4
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'laba_3/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'laba_3/**'
 
