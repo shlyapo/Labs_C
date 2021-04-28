@@ -1,5 +1,5 @@
 void Decision(int cost, int trueCost, int costCountry, int counter);
-int Parameters(int priceOfCement, int priceOfGravel, int priceOfConcrete, int cost);
+int Parameters(int countCement, int countGravel, int countConcrete, int cost);
 int GetContry();
 int Cement();
 int Gravel();
