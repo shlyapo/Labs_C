@@ -2,11 +2,11 @@ name: C2
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'laba_2_1(c)/**'
   pull_request:
-    branches: [ master ]
+    branches: [ main ]
     paths:
       - 'laba_2_1(c)/**'
 
