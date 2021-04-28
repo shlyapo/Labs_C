@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths:
-      - 'LABA_2_2(c)/**'
+      - 'laba_2_2(c)/**'
   pull_request: 
     branches: [ main ]
     paths:
