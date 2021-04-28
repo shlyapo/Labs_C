@@ -3,9 +3,9 @@
 
 void test()
 {
-assert(Cement()==230);
-assert( Gravel()==142);
-assert(Concrete()==260);
+assert(Parameters(50, 50, 50, 50)==4);
+assert(Parameters(50, 50, 50, 60)==5);
+assert(Parameters(50, 50, 50, 110)==6);
 }
 
 #undef main
