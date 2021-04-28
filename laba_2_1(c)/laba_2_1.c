@@ -77,7 +77,7 @@ void Decision(int cost, int trueCost, int costCountry, int counter)
         printf(". Confirm your order. Yes 1. No-2.\n");
         flag=0;
         while(getchar()!='\n');
-        while(flag!=scanf("%d", &answer3))
+        while(flag!=scanf("%c", &answer3))
         if (answer3 == '1' || answer3 == '2')
         {
             if (answer3 == '1')
