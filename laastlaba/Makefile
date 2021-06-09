@@ -8,5 +8,6 @@ run:
 
 mtest:
 	gcc -ftest-coverage -fprofile-arcs -O0 -o test test.c func.c
-
 	./test
+	gcov -abcfu func.c
+	
