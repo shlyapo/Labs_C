@@ -10,5 +10,4 @@ jobs:
         uses: codecov/codecov-action@v1
         with: 
           files: |
-            ./laastlaba/code-coverage/func.c.gcov
-            ./laastlaba/code-coverage/main.c.gcov
+            ./laastlaba/func.gcov
