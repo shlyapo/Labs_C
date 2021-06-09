@@ -1,0 +1,14 @@
+name: Codecov
+on: [push, pull_request]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Fetch
+        uses: actions/checkout@master
+      - name: Upload
+        uses: codecov/codecov-action@v1
+        with: 
+          files: |
+            ./laastlaba/code-coverage/func.c.gcov
+            ./laastlaba/code-coverage/main.c.gcov
